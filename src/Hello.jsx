@@ -1,5 +1,11 @@
 function Hello() {
-  return <h1>Testing react components and JSX.</h1>;
+  return (
+    <>
+      <div>
+  <h1>Testing react components and JSX.</h1>
+      </div>
+  </>
+  )
 }
 
-export default Hello;
+export default Hello
